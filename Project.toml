@@ -1,0 +1,13 @@
+name = "AlignHelper"
+uuid = "8fd4a143-776e-40c0-8269-09bcf9768316"
+authors = ["Chantal Chen <juntao.chen@wustl.edu> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
