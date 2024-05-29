@@ -1,10 +1,11 @@
-module AlignmentHelper 
+module AlignHelper 
 
 # Includes everything for running alignment as a script
 # And everything function as actual code?
 
 using ImageCore, ImageTransformations
-using AxisArrays
+using AxisArrays, IdentityRanges
+using AffineMaps, Rotations
 
 
 export restrict3, restrict12,
