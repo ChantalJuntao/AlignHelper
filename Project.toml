@@ -1,10 +1,15 @@
-name = "AlignHelper"
-uuid = "8fd4a143-776e-40c0-8269-09bcf9768316"
-authors = ["Chantal Chen <juntao.chen@wustl.edu> and contributors"]
-version = "1.0.0-DEV"
+name = "AlignmentHelper"
+uuid = "d10d9705-10db-4e88-a7d9-27c6dbeea3b5"
+authors = ["Juntao Chantal Chen"]
+version = "0.1.0"
+
+[deps]
+AxisArrays = "39de3d68-74b9-583c-8d2d-e117c070f3a9"
+ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
+ImageTransformations = "02fcd773-0e25-5acc-982a-7f6622650795"
 
 [compat]
-julia = "1.1"
+julia = "1"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
